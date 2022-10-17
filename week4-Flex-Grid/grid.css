@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(249, 34%, 15%);
+}
+body{
+    display: flex;
+    place-items: center;
+    min-height:100vh
+}
+.boxone{
+    background-color: rgb(248, 82, 32);
+    grid-area: a;
+    height:13em;
+    color: rgb(248, 82, 32);
+}
+.boxtwo{
+    background-color: rgb(255, 217, 1);
+    grid-area: b;
+    color:rgb(255, 217, 1);
+}
+.boxthree{
+    background-color: rgb(64, 175, 64);
+    grid-area: c;
+    color: rgb(64, 175, 64);
+   
+   
+}
+.boxfour{
+    background-color: rgb(45, 151, 250);
+    grid-area: d;
+    color:rgb(45, 151, 250);
+}
+.boxfive{
+    background-color: rgb(45, 151, 250);
+    grid-area: e;
+    height: 7em;
+    color:rgb(45, 151, 250);
+   
+}
+div{
+ 
+    padding: 30px
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a a a b b'
+    'c c c d d d'
+    'c c c e e e'
+    ;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}

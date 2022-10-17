@@ -1,0 +1,94 @@
+body{
+    padding: 0px 50px;
+    margin: 0px;
+    background-color: gainsboro;
+}
+.main{
+    margin:5px 50px;
+    margin-bottom: 100px;
+    background-color: #ffffff; 
+     box-shadow:3px 5px 5px rgba(41, 41, 40, 0.5);
+    border-radius: 10px;
+}
+footer{
+    position:relative;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: grey;
+    text-align: center;
+    border-radius: 20px;
+}
+header{
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: bold;
+}
+h3{
+    font-size:30px;
+    color: lightcoral
+}
+input[type=email], [type=password], [type=text], [type=tel]{
+    width:50%;
+    padding:12px 20px;
+    margin: 10px 0 40px 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+input[type=date], select{
+    width:20%;
+    padding:12px 20px;
+    margin: 10px 0 40px 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+form{
+    margin:0 20px;
+}
+input[type=submit]{
+    width:50%;
+    background-color: rgb(115, 129, 247);
+    padding:14px 20px;
+    margin: 30px 0;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+a{
+    display: in-block;
+   text-decoration-line: none;
+   text-shadow: 10px 0 20px rgb(248, 244, 7);
+    padding: 0 10px;
+    background-color: rgb(217, 206, 247);
+    border-radius: 10px;
+    
+}
+.success{
+    margin:5px 50px;
+    background-color: #ffffff; 
+    height: 300px;
+    box-shadow:3px 5px 5px rgba(41, 41, 40, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+#home{
+    height:300px;
+}
+#register{
+    height: 800px;
+}
+#login{
+    height: 500px;
+}
